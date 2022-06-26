@@ -1,0 +1,543 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1651852210438850, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651852210440705, "dur": 35443, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651852210476322, "dur": 88856, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651852210565205, "dur": 687499, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651852211252712, "dur": 7440162, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651852218692896, "dur": 10364, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651852239637811, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651852239638122, "dur": 10467, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651852239648592, "dur": 48653, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651852239697249, "dur": 1079605, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651852240776858, "dur": 863558, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651852241640418, "dur": 12993, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651852241653821, "dur": 29, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1651852240220400, "dur": 518704, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1651852240221809, "dur": 61694, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1651852240718809, "dur": 5899, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1651852240724712, "dur": 14382, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1651852240725622, "dur": 12713, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1651852240744638, "dur": 1707, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1651852240743640, "dur": 2735, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651852241653908, "dur": 121, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1651852240816298, "dur":1063, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651852240817368, "dur":62, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1651852240817444, "dur":19, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1651852240817465, "dur":556, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1651852240818055, "dur":616, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651852240818671, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651852241606454, "dur":337, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651852241606791, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651852241606802, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651852241606804, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651852241606811, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651852241606812, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651852241606819, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651852241606820, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651852241606826, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651852241606827, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651852241606834, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651852241606836, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651852241606844, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651852241606845, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651852241606851, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651852241606853, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651852241606859, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651852241606860, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651852241606866, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651852241606868, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651852241606874, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651852241606875, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651852241606881, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651852241606882, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651852241606890, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651852241606892, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651852241606901, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651852241606903, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651852241606910, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651852241606911, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651852241606917, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651852241606918, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651852241606925, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651852241606940, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651852241607015, "dur":1556, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1651852240818496, "dur":198, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651852240818695, "dur":4354, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651852240823054, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1651852240823255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651852240823765, "dur":15481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1651852240839276, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1651852240839390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651852240839415, "dur":318814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1651852241158267, "dur":245222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651852241403494, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651852241403506, "dur":2566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651852241406105, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1651852241406361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651852241406390, "dur":44659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1651852241451084, "dur":155351, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651852240818879, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651852240818879, "dur":4193, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651852240823073, "dur":1476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1651852240824552, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651852240824623, "dur":15191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1651852240839842, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1651852240839954, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651852240839961, "dur":9245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1651852240849244, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1651852240849376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651852240849426, "dur":74181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1651852240923643, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651852240923682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651852240923691, "dur":43373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651852240967101, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651852240967151, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651852240967163, "dur":58981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651852241026178, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651852241026214, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651852241026224, "dur":32282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651852241058574, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651852241058611, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651852241058620, "dur":33400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651852241092056, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651852241092091, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651852241092103, "dur":31198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651852241123338, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651852241123377, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651852241123387, "dur":23602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651852241147023, "dur":120278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651852241267309, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651852241267323, "dur":40788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651852241308140, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651852241308202, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651852241308211, "dur":163531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651852241471776, "dur":134662, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651852240818753, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651852240818754, "dur":4288, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651852240823048, "dur":1532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1651852240824586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651852240824657, "dur":15754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1651852240840437, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651852240840525, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651852240840560, "dur":77949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651852240918547, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651852240918591, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651852240918621, "dur":101577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651852241020234, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651852241020271, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651852241020279, "dur":37991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651852241058304, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651852241058340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651852241058349, "dur":58014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651852241116402, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651852241116441, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651852241116451, "dur":27679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651852241144164, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651852241144200, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651852241144242, "dur":62361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651852241206633, "dur":218725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651852241425376, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651852241425389, "dur":1840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651852241427262, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1651852241427370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651852241427379, "dur":4308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1651852241431719, "dur":910, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1651852241432635, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651852241432645, "dur":5019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1651852241437707, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1651852241437761, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651852241437769, "dur":4516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1651852241442321, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1651852241442356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651852241442365, "dur":3999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1651852241446392, "dur":160049, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651852240818479, "dur":208, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651852240818688, "dur":4365, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651852240823054, "dur":1496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1651852240824554, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651852240824632, "dur":15735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1651852240840393, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1651852240840479, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651852240840486, "dur":2762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1651852240843283, "dur":422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651852240843710, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651852240843718, "dur":139498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651852240983254, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651852240983295, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651852240983307, "dur":45311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651852241028653, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651852241028687, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651852241028696, "dur":49105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651852241077833, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651852241077866, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651852241077875, "dur":30737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651852241108645, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651852241108685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651852241108694, "dur":30481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651852241139211, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651852241139483, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651852241139505, "dur":66509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651852241206053, "dur":44671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651852241250731, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651852241250743, "dur":56269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651852241307047, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651852241307082, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651852241307094, "dur":98168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651852241405294, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1651852241405332, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651852241405342, "dur":2100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1651852241407471, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1651852241407506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651852241407514, "dur":81129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1651852241488666, "dur":117792, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651852240818533, "dur":170, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651852240818704, "dur":4354, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651852240823060, "dur":1530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1651852240824594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651852240824610, "dur":89719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1651852240914369, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651852240914415, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651852240914423, "dur":55517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651852240969971, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651852240970007, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651852240970015, "dur":127561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651852241097614, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651852241097654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651852241097666, "dur":25648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651852241123368, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651852241123429, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651852241123438, "dur":26883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651852241150352, "dur":81201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651852241231561, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651852241231599, "dur":19948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651852241251581, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651852241251612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651852241251621, "dur":102631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651852241354317, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651852241354357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651852241354369, "dur":116896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651852241471292, "dur":135156, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651852240818605, "dur":104, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651852240818710, "dur":4354, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651852240823065, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1651852240823290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651852240827820, "dur":23209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1651852240851062, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651852240851107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651852240851142, "dur":63461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651852240914642, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651852240914681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651852240914726, "dur":40613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651852240955379, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651852240955412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651852240955424, "dur":64605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651852241020095, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651852241020137, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651852241020146, "dur":57872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651852241078050, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651852241078209, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651852241078218, "dur":38203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651852241116456, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651852241116494, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651852241116503, "dur":131604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651852241248143, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651852241248180, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651852241248192, "dur":154807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651852241403038, "dur":31992, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651852241435036, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651852241435070, "dur":1757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651852241436862, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1651852241436896, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651852241436905, "dur":2745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1651852241439683, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1651852241439721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651852241439730, "dur":4124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1651852241443888, "dur":162558, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651852240819013, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651852240819014, "dur":4042, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651852240823057, "dur":1504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1651852240824565, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651852240824830, "dur":89509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1651852240914383, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651852240914449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651852240914460, "dur":54745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651852240969268, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651852240969324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651852240969333, "dur":50422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651852241019793, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651852241019929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651852241019939, "dur":28905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651852241048882, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651852241048921, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651852241048934, "dur":28335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651852241077310, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651852241077345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651852241077355, "dur":31453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651852241108840, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651852241108878, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651852241108885, "dur":35876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651852241144794, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651852241144837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651852241144847, "dur":45149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651852241190044, "dur":28015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651852241218068, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651852241218083, "dur":14631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651852241232745, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651852241232782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651852241232791, "dur":76818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651852241309645, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651852241309677, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651852241309685, "dur":175929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651852241485638, "dur":120827, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651852240818743, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651852240818744, "dur":4296, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651852240823046, "dur":1592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1651852240824643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651852240824715, "dur":89741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1651852240914505, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651852240914549, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651852240914556, "dur":55930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651852240970520, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651852240970554, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651852240970562, "dur":49003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651852241019607, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651852241019672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651852241019685, "dur":55090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651852241074808, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651852241074847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651852241074856, "dur":23960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651852241098848, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651852241098880, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651852241098887, "dur":26914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651852241125836, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651852241125876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651852241125885, "dur":82993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651852241208916, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651852241208953, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651852241208962, "dur":250046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651852241459033, "dur":147421, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1651852240818643, "dur":74, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1651852240818717, "dur":4345, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1651852240823074, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1651852240823288, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1651852240827386, "dur":322086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1651852241149505, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1651852241149541, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1651852241149551, "dur":101879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1651852241251476, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1651852241251538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1651852241251548, "dur":120605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1651852241372186, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1651852241372220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1651852241372231, "dur":206170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1651852241578439, "dur":28016, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1651852240818805, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1651852240818806, "dur":4249, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1651852240823056, "dur":1532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1651852240824592, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1651852240824608, "dur":89937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1651852240914593, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1651852240914640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1651852240914649, "dur":54401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1651852240969090, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1651852240969128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1651852240969136, "dur":50421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1651852241019606, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1651852241019687, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1651852241019698, "dur":98301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1651852241118030, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1651852241118065, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1651852241118074, "dur":26769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1651852241144876, "dur":45087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1651852241189971, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1651852241189985, "dur":17199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1651852241207214, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1651852241207253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1651852241207265, "dur":108316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1651852241315613, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1651852241315649, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1651852241315657, "dur":127597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1651852241443289, "dur":163190, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1651852240818840, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1651852240818841, "dur":4225, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1651852240823071, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1651852240823317, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1651852240843590, "dur":72641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1651852240916270, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1651852240916310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1651852240916319, "dur":52949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1651852240969302, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1651852240969340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1651852240969349, "dur":59123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1651852241028597, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1651852241028666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1651852241028676, "dur":28470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1651852241057183, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1651852241057219, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1651852241057253, "dur":40627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1651852241097918, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1651852241097962, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1651852241097973, "dur":28839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1651852241126843, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1651852241126877, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1651852241126886, "dur":48323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1651852241175243, "dur":42898, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":11, "ts":1651852241218148, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1651852241218159, "dur":14563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":11, "ts":1651852241232760, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1651852241232801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1651852241232811, "dur":126849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1651852241359695, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1651852241359731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1651852241359741, "dur":52951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1651852241412722, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1651852241412759, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1651852241412767, "dur":19749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1651852241432545, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1651852241432577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1651852241432587, "dur":5376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1651852241437991, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/level0" }}
+,{ "pid":12345, "tid":11, "ts":1651852241438034, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1651852241438040, "dur":4517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/level0" }}
+,{ "pid":12345, "tid":11, "ts":1651852241442588, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1651852241442697, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1651852241442704, "dur":3654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1651852241446391, "dur":160048, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1651852240818308, "dur":373, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1651852240818683, "dur":4351, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1651852240823046, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":12, "ts":1651852240823048, "dur":233, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1651852240823288, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/app.info" }}
+,{ "pid":12345, "tid":12, "ts":1651852240823293, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1651852240843117, "dur":7496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/app.info" }}
+,{ "pid":12345, "tid":12, "ts":1651852240850616, "dur":63131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1651852240913757, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1651852240913770, "dur":57622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1651852240971423, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1651852240971464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1651852240971473, "dur":50575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1651852241022084, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1651852241022120, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1651852241022128, "dur":29862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1651852241052022, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1651852241052056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1651852241052066, "dur":32674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1651852241084776, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1651852241084818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1651852241084829, "dur":149933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1651852241234793, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1651852241234826, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1651852241234835, "dur":214204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1651852241449074, "dur":157371, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1651852240818923, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1651852240818923, "dur":4124, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1651852240823048, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1651852240823287, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1651852240823859, "dur":21282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1651852240845184, "dur":509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":13, "ts":1651852240845698, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1651852240845728, "dur":77187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":13, "ts":1651852240922957, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1651852240923003, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1651852240923014, "dur":35597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1651852240958648, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1651852240958686, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1651852240958697, "dur":61430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1651852241020163, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1651852241020201, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1651852241020209, "dur":49783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1651852241070029, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1651852241070065, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1651852241070077, "dur":56683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1651852241126796, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1651852241126837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1651852241126849, "dur":51994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1651852241178879, "dur":74057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":13, "ts":1651852241252942, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1651852241252954, "dur":56525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":13, "ts":1651852241309510, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":13, "ts":1651852241309546, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1651852241309554, "dur":210311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":13, "ts":1651852241519894, "dur":86549, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1651852240819039, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1651852240819040, "dur":4012, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1651852240823052, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1651852240823289, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1651852240828304, "dur":320592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1651852241148933, "dur":87076, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1651852241236015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1651852241236025, "dur":37127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1651852241273186, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":14, "ts":1651852241273222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1651852241273232, "dur":37988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":14, "ts":1651852241311257, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1651852241311289, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1651852241311297, "dur":47204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1651852241358542, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":14, "ts":1651852241358601, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1651852241358612, "dur":116116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":14, "ts":1651852241474751, "dur":131706, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1651852240819253, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1651852240819253, "dur":3843, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1651852240823097, "dur":1544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1651852240824645, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1651852240824663, "dur":16100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1651852240840786, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":15, "ts":1651852240840865, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1651852240840871, "dur":85677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":15, "ts":1651852240926580, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1651852240926620, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1651852240926629, "dur":43591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1651852240970256, "dur":133250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":15, "ts":1651852241103514, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1651852241103526, "dur":4885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":15, "ts":1651852241108449, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1651852241108490, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1651852241108501, "dur":92256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1651852241200794, "dur":288661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":15, "ts":1651852241489471, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1651852241489544, "dur":1437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":15, "ts":1651852241491001, "dur":115479, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1651852240819149, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1651852240819150, "dur":3901, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1651852240823051, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1651852240823291, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1651852240828771, "dur":18000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1651852240846808, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret.exe" }}
+,{ "pid":12345, "tid":16, "ts":1651852240846847, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1651852240846857, "dur":69586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret.exe" }}
+,{ "pid":12345, "tid":16, "ts":1651852240916479, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1651852240916526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1651852240916536, "dur":51922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1651852240968504, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1651852240968542, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1651852240968552, "dur":67864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1651852241036449, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1651852241036484, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1651852241036494, "dur":35958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1651852241072504, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1651852241072545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1651852241072555, "dur":39117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1651852241111707, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1651852241111740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1651852241111749, "dur":28816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1651852241140599, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1651852241140632, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1651852241140642, "dur":166835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1651852241307511, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":16, "ts":1651852241307544, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1651852241307554, "dur":52258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":16, "ts":1651852241359861, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":16, "ts":1651852241359898, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1651852241359908, "dur":246459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/parksangwo/Desktop/UnityOutputs/CherryTurret/CherryTurret_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":16, "ts":1651852241606397, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":16, "ts":1651852241606399, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651852241611227, "dur":2222, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1651852241654070, "dur": 647, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651852241653808, "dur": 928, "ph": "X", "name": "Write chrome-trace events", "args": {} },
